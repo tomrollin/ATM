@@ -10,7 +10,7 @@ public class CustomerMain {
 //
 //        System.out.println(tom.checkPin("pss46111584"));
 
-        Bank bank = new Bank("My Bank");
+        Bank bank = new Bank("My Bank",new WebServiceDatasource());
         bank.addCustomer(tom);
         bank.addCustomer(tang);
 
@@ -21,14 +21,14 @@ public class CustomerMain {
 //        System.out.println(c1);
 //        System.out.println(c2);
 //        System.out.println(c3);
-        ATM atm = new ATM(bank);
-        atm.validateCustomer(1,"pss46111584");
-        atm.deposit(1000);
-        System.out.println(tom);
-
-        atm.transfer(2,200);
-        System.out.println(tom);
-        System.out.println(tang);
+//        ATM atm = new ATM(bank);
+//        atm.validateCustomer(1,"pss46111584");
+//        atm.deposit(1000);
+//        System.out.println(tom);
+//
+//        atm.transfer(2,200);
+//        System.out.println(tom);
+//        System.out.println(tang);
 
         System.out.println(bank);
 
