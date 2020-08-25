@@ -19,11 +19,11 @@ public class BankAccount {
         this.balance = balance;
     }
 
-    public void deposit(int amount){
+    public void deposit(double amount){
         balance += amount;
     }
 
-    public void withdraw(int amount){
+    public void withdraw(double amount){
         balance -= amount;
     }
 
