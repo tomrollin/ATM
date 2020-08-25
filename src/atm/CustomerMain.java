@@ -30,5 +30,7 @@ public class CustomerMain {
         System.out.println(tom);
         System.out.println(tang);
 
+        System.out.println(bank);
+
     }
 }
